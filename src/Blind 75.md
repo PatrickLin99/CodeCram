@@ -64,9 +64,9 @@
 
 ## Linked List
 
-- [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Solution](/src/files/206_ReverseLinkedList_Easy.md)
+- [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Solution](/src/files/206_ReverseLinkedList_Easy.kt)
 - [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) | [Solution](/src/files/141_hasCycle_Easy.md)
-- [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  | [Solution](/src/files/021_MergeTwoSortedLists_Easy.md)
+- [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  | [Solution](/src/files/021_MergeTwoSortedLists_Easy.kt)
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [ ] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [ ] [Reorder List](https://leetcode.com/problems/reorder-list/)
@@ -99,7 +99,7 @@
 
 ## Tree
 - [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solution](/src/files/104_MaximumDepthOfBinaryTree_Easy.md)
-- [x] [Same Tree](https://leetcode.com/problems/same-tree/) | [Solution](/src/files/100_SameTree_Easy.md)
+- [x] [Same Tree](https://leetcode.com/problems/same-tree/) | [Solution](/src/files/100_SameTree_Easy.kt)
 - [ ] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 - [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 - [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
