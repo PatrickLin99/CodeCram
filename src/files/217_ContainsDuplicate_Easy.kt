@@ -38,3 +38,19 @@ fun containsDuplicate(nums: IntArray): Boolean {
 fun containsDuplicateA(nums: IntArray): Boolean {
     return nums.size > nums.distinct().size
 }
+
+/**
+ * 解法 3.
+ * 因為 set 不會有重複的 element，如果重複時 add 會返回 false
+ * 可以用 mutableSetOf<Int>().add(Int) 來判斷是不是有重複過
+ */
+ 
+fun containsDuplicate(nums: IntArray): Boolean {
+    val set = mutableSetOf<Int>()
+    for (i in 0 until nums.size) {
+        if (!set.add(nums[i])) {
+            return true
+        }
+    }
+    return false
+}
