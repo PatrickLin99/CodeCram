@@ -3,7 +3,7 @@
 
 - [x] [001. Two Sum - Easy](https://leetcode.com/problems/two-sum/) | [Solution](/src/files/001_TwoSum_Easy.kt)
 - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [x] [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [x] [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Solution](/src/files/001_TwoSum_Easy.kt)
 - [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
@@ -17,7 +17,7 @@
 ## Binary
 
 - [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
-- [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+- [x] [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 - [ ] [Counting Bits](https://leetcode.com/problems/counting-bits/)
 - [ ] [Missing Number](https://leetcode.com/problems/missing-number/)
 - [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
