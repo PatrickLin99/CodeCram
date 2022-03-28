@@ -9,7 +9,7 @@
  */
 class Solution {
   
-    // 範例：1[2[3[null]]] 也就是下面的樣子
+    // 範例：1->2->3->null 也就是下面的樣子
     //
     //    ListNode(1).apply {
     //        next = ListNode(2).apply {
@@ -19,7 +19,7 @@ class Solution {
     //        }
     //    }
     // 
-    // 但我們要把它倒過來變 3[2[1[[null]]]] 也就是下面的樣子
+    // 但我們要把它倒過來變 3->2->1->null 也就是下面的樣子
     //
     //    ListNode(3).apply {
     //        next = ListNode(2).apply {
@@ -30,13 +30,13 @@ class Solution {
     //    }
     // 
   
-    // head = {1[2(3)]}
+    // head = 1->2->3->null
     fun reverseList(head: ListNode?): ListNode? {
         var prev: ListNode? = null
         // 第一次 prev = null
-        // 第二次 prev = 1[null]
-        // 第三次 prev = 2[1[null]]
-        // 第四次 prev = 3[2[1[null]]]
+        // 第二次 prev = 1->null
+        // 第三次 prev = 2->1->null
+        // 第四次 prev = 3->2->1->null
 
         var current = head
         // 第一次 current = 1
@@ -46,9 +46,9 @@ class Solution {
 
         while(current != null) {
             prev = ListNode(current.`val`).apply { next = prev }
-            // 第一次 reversed = 1[null]
-            // 第二次 reversed = 2[1[null]]
-            // 第三次 reversed = 3[2[1[null]]]
+            // 第一次 reversed = 1->null
+            // 第二次 reversed = 2->1->null
+            // 第三次 reversed = 3->2->1->null
 
             current = current.next
             // 第一次 prev = 2
