@@ -107,7 +107,7 @@
 - [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [x] [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](/src/files/572_SubtreeOfAnotherTree.kt)
 - [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-- [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+- [x] [098. Validate Binary Search Tree_Medium](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](/src/files/098_ValidateBinarySearchTree_Medium.md)
 - [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 - [ ] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 - [ ] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
